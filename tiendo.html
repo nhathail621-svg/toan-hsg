@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tiến độ · HSG Toán Hà Tĩnh 2027</title>
+<meta name="description" content="Theo dõi tiến độ học">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/gojo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0a1a'/><text x='16' y='24' font-size='20' font-family='Georgia,serif' font-weight='bold' fill='%23a855f7' text-anchor='middle'>&#8734;</text></svg>">
+</head>
+<body>
+<div class="scrim"></div>
+
+<div class="topbar"><button id="burger" aria-label="Menu">☰</button><b>VÔ HẠ HẠN · HSG TOÁN 2027</b></div>
+<div class="cursed-line"></div>
+<div class="shell">
+<aside class="side" id="side"><div class="brand"><div class="logo">∞</div><div><b>VÔ HẠ HẠN</b><span>HSG Toán · 18/20</span></div></div><div class="navgrp">BẮT ĐẦU</div><a class="nv" href="index.html"><span class="ic">◈</span>Tổng quan</a><a class="nv" href="lotrinh.html"><span class="ic">⇒</span>Lộ trình 17 tuần</a><a class="nv" href="phantich.html"><span class="ic">◔</span>Phân tích 5 đề</a><div class="navgrp">HỌC</div><a class="nv" href="kho.html"><span class="ic">▤</span>Kho 3.014 bài</a><a class="nv" href="loigiai.html"><span class="ic">★</span>Lời giải ★</a><a class="nv" href="vukhi.html"><span class="ic">✦</span>Vũ khí & phương pháp</a><div class="navgrp">LUYỆN</div><a class="nv" href="dethi.html"><span class="ic">✎</span>8 đề thi thử</a><a class="nv" href="muoi15.html"><span class="ic">◷</span>60 đề 15 phút</a><a class="nv" href="flashcard.html"><span class="ic">❒</span>Flashcard</a><div class="navgrp">THEO DÕI</div><a class="nv on" href="tiendo.html"><span class="ic">▣</span>Tiến độ</a><a class="nv" href="ielts.html"><span class="ic">A</span>Toán & IELTS</a><div class="mini"><b id="miniCount">0 bài đã làm</b><div class="bar"><i id="miniBar"></i></div><small>Đánh dấu "đã làm" trong kho bài → thanh này chạy.</small></div></aside>
+<main><div class="wrap">
+
+<h1>Tiến độ của bạn</h1>
+<p class="lead">Dữ liệu lưu ngay trên máy bạn (localStorage) — không tài khoản, không cần mạng.
+Đổi máy: bấm <b>Xuất tiến độ</b> rồi <b>Nhập</b> ở máy mới.</p>
+<div class="grid">
+  <div class="card"><h3>Tổng số bài đã làm</h3><div class="tile"><div class="num blue" id="p-all">0</div></div>
+    <div class="prog" style="margin-top:10px"><i id="p-all-bar"></i></div></div>
+  <div class="card"><h3>Bài ★ đã làm</h3><div class="tile gold"><div class="num gold" id="p-star">0</div></div>
+    <div class="prog gold" style="margin-top:10px"><i id="p-star-bar"></i></div>
+    <p>Nhóm ★ là đường ngắn nhất tới 18/20.</p></div>
+</div>
+<h2>Theo chuyên đề</h2>
+<div class="card" id="p-topics"></div>
+<h2>Sao lưu / chuyển máy</h2>
+<div class="frow">
+  <button class="btn ghost" id="p-export">Xuất tiến độ (.json)</button>
+  <label class="btn ghost" style="cursor:pointer">Nhập tiến độ<input type="file" id="p-import" accept=".json" hidden></label>
+  <button class="btn" id="p-reset" style="background:#a52222">Xoá hết</button>
+</div>
+<div class="note">Mục tiêu: <b>24 bài/tuần</b> (khoảng 3–4 bài/ngày × 6 ngày) là đúng nhịp của lộ trình 17 tuần.</div>
+
+<footer class="ft">HSG Toán Hà Tĩnh 2027 · 3,014 bài · 995 ★ · 8 đề 150 phút · 60 đề 15 phút · Bản online, dùng được trên điện thoại.</footer>
+</div></main>
+</div>
+<script src="data/bank.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/math-render.js"></script>
+</body></html>
